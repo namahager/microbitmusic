@@ -1,0 +1,33 @@
+{
+    "name": "魔法の音楽プレイヤー - 受信機側",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.7",
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.8.11"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable9.0",
+        "tag": "v9.0.8",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/cbefc331a25d0dd81f2d64fe573118e093e26fd4",
+        "target": "9.0.8",
+        "pxt": "13.0.5",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
